@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-kenshimoral-fsd-path-checker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "plugin for production project",
   "keywords": [
     "eslint",
