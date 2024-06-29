@@ -18,11 +18,11 @@ npm install eslint-plugin-kenshimoral-fsd-path-checker --save-dev
 
 ## Usage
 
-Add `fsd-path-checker` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `eslint-plugin-kenshimoral-fsd-path-checker` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
-  "plugins": ["fsd-path-checker"]
+  "plugins": ["kenshimoral-fsd-path-checker"]
 }
 ```
 
@@ -31,7 +31,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
   "rules": {
-    "fsd-path-checker/rule-name": 2
+    "kenshimoral-fsd-path-checker/path-checker": 2
   }
 }
 ```
